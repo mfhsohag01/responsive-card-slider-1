@@ -23,6 +23,12 @@ body {
   padding: 18px;
   border-radius: 12px;
   text-decoration: none;
+  border: 2px solid transparent;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+  transition: 0.2 ease;
+}
+.card-list .card-item .card-link:hover {
+  border-color: #5373f0;
 }
 .card-list .card-link .card-image {
   width: 100%;
@@ -32,12 +38,13 @@ body {
 }
 .card-list .card-link .badge {
   color: #5373f0;
-  background-color: #dde4ff;
+  background: #dde4ff;
   margin: 16px 0 18px;
   padding: 8px 16px;
   font-size: 0.95rem;
   font-weight: 500;
   border-radius: 50px;
+  display: inline-block;
 }
 .card-list .card-link .card-title {
   font-size: 1.19rem;
@@ -54,4 +61,9 @@ body {
   background: none;
   cursor: pointer;
   transform: rotate(-45deg);
+  transition: 0.4s ease;
+}
+.card-list .card-link:hover .card-button {
+  color: #fff;
+  background: #5373f0;
 }
