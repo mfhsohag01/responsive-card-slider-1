@@ -17,7 +17,8 @@ body {
   list-style: none;
 }
 .card-list .card-item .card-link {
-  width: 400px;
+  user-select: none;
+
   display: block;
   background: #fff;
   padding: 18px;
@@ -46,6 +47,23 @@ body {
   border-radius: 50px;
   display: inline-block;
 }
+.card-list .card-link .badge.designer {
+  color: #205c20;
+  background: #d6f8d6;
+}
+.card-list .card-link .badge.marketer {
+  color: #c43b09;
+  background: #d6f8d6;
+}
+.card-list .card-link .badge .gamer {
+  color: #7a0909;
+  background: #8b9c8b;
+}
+.card-list .card-link .badge.editor {
+  color: #205c20;
+  background: #ccd6cc;
+}
+
 .card-list .card-link .card-title {
   font-size: 1.19rem;
   color: #000;
